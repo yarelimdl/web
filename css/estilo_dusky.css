@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header {
+	width: 1003px;
+	height: 278px;
+	background-image: url(../imagenes/fondo_header.jpg);
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu {
+	width: 1003px;
+	height: 33px;
+	background-color: #00AC69;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header #logo {
+	width: 238px;
+	height: 46px;
+	padding-left: 90px;
+}
+#contenidos {
+	width: 1003px;
+	height: 458px;
+	background-color: #FDAEE2;
+	margin-left: auto;
+	margin-right: auto;
+}
+#op_menu {
+	list-style-type: none;
+	margin-top: -16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: normal;
+}
+#op_menu li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#op_menu li a:hover  {
+	text-decoration: none;
+	color: #e5df85;
+}
+
+
+#op_menu li {
+	border: 0px solid #333333;
+	float: left;
+	padding-left: 30px;
+	padding-right: 5px;
+	margin-top: 7px;
+	margin-left: -7px;
+	}
+
+
+#header img {
+	float: right;
+	padding-top: 63px;
+	padding-right: 57px;
+}
+
+
+body {
+}
+
+
+
+#p_izq {
+	width: 289px;
+	height: 458px;
+	background-color: #efeba3;
+	float: left;
+	padding-left: 35px;
+	margin-top: -51px;
+	margin-left: 0px;
+}
+#p_centro {
+	width: 360px;
+	height: 458px;
+	background-color: #efeba3;
+	float: left;
+	padding-left: 35px;
+	padding-right: 23px;
+	margin-top: -51px;
+}
+.txtnaranja {
+	color: #c46706;
+	font-family: Arial;
+	text-decoration: underline;
+	font-size: 11px;
+}
+
+#p_der {
+	height: 458px;
+	background-color: #efeba3;
+	width: 264px;
+	padding-left: 0px;
+	padding-top: 20px;
+	margin-left: 380px;
+	margin-top: -325px;
+	padding-right: 0px;
+}
+
+
+
+
+
+
+
+
+#pie {
+	height: 109px;
+	width: 1001px;
+	background-color: #00AC69;
+	margin-left: -358px;
+	margin-top: -32px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+
+
+.txtAzul {
+	color: #005B7F;
+	font-size: 12px;
+	font-weight: bold;
+}
+#contenidos #p_izq ul {
+	list-style-type: none;
+	margin-left: -40px;
+}
+.txtamarillo {
+	color: #e5df85;
+	font-family: Arial;
+	font-size: 11px;
+}
+
+
+#contenidos #p_izq  ul li a {
+	text-decoration: none;
+	color: #363636;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	background-image: url(../imagenes/bullet_off.png);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: 0 3px;
+}
+#contenidos #p_izq ul li a:hover  {
+	text-decoration: none;
+	color: #C46706;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	background-image: url(../imagenes/bullet_over.png);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: 0 3px;
+}
+#p_izq ul li {
+	border-bottom: 1px solid #C6D09D;
+	height: 22px;
+	padding-bottom: 0px;
+}
+#contenidos #p_centro ul {
+	list-style-type: none;
+
+}
+#contenidos #p_centro ul li a {
+	font-family: Arial;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 12px;
+	color: #363636;
+	background-image: url(../imagenes/bullet_tri_off.png);
+	background-repeat: no-repeat;
+	background-position: 0% 6px;
+	padding-left: 15px;
+}
+#contenidos #p_centro ul li a:hover  {
+	font-family: Arial;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 12px;
+	color: #C46706;
+	background-image: url(../imagenes/bullet_tri_over.png);
+	background-repeat: no-repeat;
+	background-position: 0% 6px;
+	padding-left: 15px;
+}
+#p_centro ul li {
+	border-bottom: 1px dashed #8bb5a2;
+}
+
+#contenidos #p_der {
+}
+.txtverde {
+	color: #4f790a;
+	font-size: 12px;
+	background-position: 0% 3px;
+}
+#p_der h1 {
+	font-family: "[WeidemannEF]";
+	font-size: 18px;
+}
+#p_der .txtNegro {
+	background-image: url(../estrella.png);
+	background-repeat: no-repeat;
+	background-position: 0% 0;
+	padding-left: 20px;
+}
+.txtNegro {
+	font-size: 12px;
+	color: #000000;
+}
+
+#p_der .txtNegro, {
+}
+.txtNegro2 {
+	color: #000000;
+	font-size: 12px;
+	background-image: url(../lapiz.png);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+#pie .enlaces.inferior {
+	color: #e5df85;
+	font-family: Georgia;
+	font-size: 12px;
+}
+#pie #menu_inferior .enlaces.inferior {
+	width: 280px;
+	height: 23px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#enlases.inferior center a {
+	color: #e5df85;
+	font-family: Georgia;
+	font-size: 10px;
+}
+#menu_inferior .enlaces.inferior a {
+	color: #e5df85;
+	font-family: Georgia;
+	font-size: 10px;
+}
+#menu_inferior .enlaces.inferior a:hover  {
+	color: #FFFFFF;
+	font-family: Georgia;
+	font-size: 10px;
+}
+#pie #menu_inferior .txtamarillo {
+	margin-right: 0px;
+	text-align: center;
+}
